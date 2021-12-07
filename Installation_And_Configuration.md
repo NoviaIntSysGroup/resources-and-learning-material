@@ -12,7 +12,7 @@ These instructions are intended to help Windows users get up and running with ma
 
 **Cheat sheets:**
 * [Git commands](https://education.github.com/git-cheat-sheet-education.pdf)
-* [Git markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Git markdown](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
 * [Conda commands](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 ## Git Bash

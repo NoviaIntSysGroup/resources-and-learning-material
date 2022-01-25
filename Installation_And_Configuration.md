@@ -9,6 +9,7 @@ These instructions are intended to help Windows users get up and running with ma
 **Optional software:**
 * LaTeX for reports and articles.
 * WSL for additional linux functionality.
+* CUDA for deep learning on a GPU.
 
 **Cheat sheets:**
 * [Git commands](https://education.github.com/git-cheat-sheet-education.pdf)
@@ -87,3 +88,12 @@ Remember that files that are to be accessed from both Windows and Ubuntu should 
 $ cd /mnt/c/
 ```
 To install Anaconda on WSL follow the instructions [here](https://gist.github.com/kauffmanes/5e74916617f9993bc3479f401dfec7da).
+
+## CUDA
+Training and evaluation of large (deep) neural networks can be made ten-fold faster using a graphical processing unit (GPU). CUDA is the API that lets you use GPUs for general purposes, like training neural networks. Currently, you need to install the following three softwares (in this order) to let machine learning platforms (like TensorFlow or PyTorch) utilize the GPU (assuming you have a compatible NVIDIA GPU):
+1. Microsoft Visual Studio (community edition is free for students and academic research).
+   * Install the workload: Desktop development with C++.
+2. NVIDIA CUDA toolkit.
+3. NVIDIA cuDNN (requires registration).
+
+The installation for windows is fairly straight forward (just run the executables), but check beforehand which versions of CUDA toolkit and cuDNN that are compatible with which versions of the intended machine learning platform.

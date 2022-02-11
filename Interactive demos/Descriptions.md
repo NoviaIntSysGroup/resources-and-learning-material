@@ -18,6 +18,24 @@ $ python LinearRegression.py
 1. Introduce the concept of gradients.
 1. Show how learning can take place even if one only knows the current gradient.
 
+## LogisticRegression.py
+**Required python packages:**
+- numpy,
+- matplotlib,
+- tkinter.
+
+These are all already included in your base environment if you installed anaconda (i.e. not miniconda).  
+**Usage:**  
+```console
+$ python LogisticRegression.py
+```
+**Purpose:** Intended to convey basics concepts related to learning and how the intuition from linear regression carries over to classification tasks.
+1. Show how parameters change the input-output mapping of a model (logistic model in this case).
+1. Introduce the notion of an objective function, and how it spans a surface over the space of parameter values.
+1. Illustrate that every parameter combination correspond to one point on the surface.
+1. Introduce the concept of gradients.
+1. Show how learning can take place even if one only knows the current gradient.
+
 ## KMeans.py
 **Required python packages:**
 - numpy,

@@ -12,6 +12,7 @@ These instructions are intended to help Windows users get up and running with ma
 * CUDA for deep learning on a GPU.
 
 **Cheat sheets:**
+* [Bash commands](https://github.com/RehanSaeed/Bash-Cheat-Sheet)
 * [Git commands](https://education.github.com/git-cheat-sheet-education.pdf)
 * [Git markdown](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
 * [Conda commands](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
@@ -45,6 +46,7 @@ for the same thing in all our repositories afterwards.
 Download and install [Anaconda](https://www.anaconda.com/products/individual) by following the installation instructions. Once installed, add
 ```bash
 . ~/Anaconda3/etc/profile.d/conda.sh
+conda activate
 ```
 to ~/.bashrc in order to make conda accessible from Git bash. Create a new environment for your machine learning project in Git bash as:
 ```console
@@ -58,6 +60,23 @@ You can install needed packages to your environment by simply writing:
 ```console
 $ conda install PACKAGENAME
 ```
+
+## Conda environment and Jupyter notebooks
+Once anaconda is installed it is recommended that you create a separate conda environment for tasks that require a specific set of python packages. This helps to ensure that all installed package versions are compatible with each other. You can set up at standard machine learning environment using the latest python version with the following commands in Git bash:
+```console
+$ conda create --name ml python
+$ conda activate ml
+$ conda install -c conda-forge numpy
+$ conda install -c conda-forge matplotlib
+$ conda install -c conda-forge scikit-learn
+$ conda install -c conda-forge notebook
+```
+whereupon you can start up a jupyter notebok by writing:
+```console
+$ jupyter notebook
+```
+
+It is also possible to install python packages into your conda environment using [pip](https://en.wikipedia.org/wiki/Pip_(package_manager)). This is for example the recommended approach for [TensorFlow](https://www.tensorflow.org/install) and [PyTorch](https://pytorch.org/) to ensure that you get versions compatible with CUDA (see below).
 
 ## LaTeX
 LaTeX is a free document preparation system that is commonly used for writing reports and articles within computational sciences. The primary  benefits of using LaTeX over something like Microsoft Word are:

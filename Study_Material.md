@@ -11,6 +11,7 @@ This document list essential study material (online videos, lectures, books, etc
 Always check for separate videos when trying to understand a new math related topic such as Fourier or Laplace transforms. Great youtube channels for this purpose are:
 * [3Blue1Brown](https://www.youtube.com/c/3blue1brown/featured)  
 * [Zach Star](https://www.youtube.com/c/zachstar/videos)
+* [Steve Brunton](https://www.youtube.com/c/Eigensteve/playlists)
 
 Videos is not always enough but there are courses available where you can get "Real" hands-on experience to better grasp the topics at the cost of investing some more time. Two examples are:
 * [Khan Academy (Free)](https://www.khanacademy.org)

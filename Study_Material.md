@@ -37,7 +37,7 @@ You can find datasets to practice on from:
 * [Google Dataset Search](https://datasetsearch.research.google.com)
 
 ## Physics
-A lot of the concepts and ideas used in machine learning have originated from physics. At times, it can therefore be quite helpful to get an understanding of the problems they initially tried to solve as well as the underlying reasoning. [The theoretical minimun series by Leonard Susskind](https://theoreticalminimum.com/courses) is the best resource that I have found for achieving this. The first three courses *Classical Mechanics*, *Quantum mechanics*, and *Special Relativity and Classical Field Theory* are also available as books written in a easily readable way.
+A lot of the concepts and ideas used in machine learning have originated from physics. At times, it can therefore be quite helpful to get an understanding of the problems they initially tried to solve as well as the underlying reasoning. [The theoretical minimun series by Leonard Susskind](https://theoreticalminimum.com/courses) is the best resource that I have found for achieving this. The first three courses *Classical Mechanics*, *Quantum mechanics*, and *Special Relativity and Classical Field Theory* are also available as books written in an easily readable way. In addition, [Feynman's messenger lectures](https://www.feynmanlectures.caltech.edu/messenger.html) are a good introductions to fundamental concepts and ideas, as these where originally intended to explain physics to a general audience.
 
 
 ## Popular science
